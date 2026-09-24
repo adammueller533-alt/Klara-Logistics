@@ -771,19 +771,33 @@ footer .brand small {
 .brand.brand--image {
   position: relative;
   display: block;
-  width: 84px;
-  height: 134px;
-  flex: 0 0 84px;
+  width: 136px;
+  height: 48px;
+  flex: 0 0 136px;
   overflow: hidden;
 }
 
 .brand--image img {
   position: absolute;
-  width: 210px;
-  height: 210px;
+  width: 136px;
+  height: 48px;
   max-width: none;
-  left: -63px;
-  top: -44px;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+}
+
+/* Wersja mobilna — trochę mniejsze logo */
+@media (max-width: 760px) {
+  .brand.brand--image {
+    width: 110px;
+    height: 39px;
+    flex: 0 0 110px;
+  }
+  .brand--image img {
+    width: 110px;
+    height: 39px;
+  }
 }
 
 .header {
