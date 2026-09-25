@@ -621,7 +621,6 @@ footer .brand small {
 @media (max-width: 1000px) {
   .header { gap: 15px; }
   .header nav { gap: 22px; font-size: .9rem; }
-  .header-phone { font-size: .85rem; }
   .split { gap: 5%; }
   .panel { padding: 25px; }
   .cards article { padding: 23px; }
@@ -681,7 +680,6 @@ footer .brand small {
 
   .header-phone {
     margin-left: auto;
-    font-size: .8rem;
   }
 
   .hero-content { padding-top: 50px; }
